@@ -76,7 +76,7 @@ fun ProjectRow(
             Icon(
                 painter = painterResource(R.drawable.ic_star),
                 contentDescription = "$name is not marked as favorite",
-                tint = MaterialTheme.colorScheme.onPrimaryContainer,g
+                tint = MaterialTheme.colorScheme.onPrimaryContainer,
             )
         }
     }
