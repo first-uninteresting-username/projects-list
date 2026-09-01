@@ -4,6 +4,8 @@
 
 </div>
 
+[![Get it on Obtainium](https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/First-Non-Interesting-Username/projects-list)
+
 # Projects List App
 
 An AOSP app for (side) project management.
