@@ -48,23 +48,23 @@ fun ProjectRow(
         verticalAlignment = Alignment.CenterVertically
     ) {
         Text(
-            text = "#$chronology"
-            color = MaterialTheme.colorScheme.onPrimaryContainer
+            text = "#$chronology",
+            color = MaterialTheme.colorScheme.onPrimaryContainer,
         )
         Text(
             text = name,
-            style = MaterialTheme.typography.bodyLarge
-            color = MaterialTheme.colorScheme.onPrimaryContainer
+            style = MaterialTheme.typography.bodyLarge,
+            color = MaterialTheme.colorScheme.onPrimaryContainer,
         )
         Text(
             text = "Mot: $motivation/10",
-            style = MaterialTheme.typography.bodyMedium
-            color = MaterialTheme.colorScheme.onPrimaryContainer
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onPrimaryContainer,
         )
         Text(
             text = "Pri: $priority/10",
-            style = MaterialTheme.typography.bodyMedium
-            color = MaterialTheme.colorScheme.onPrimaryContainer
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onPrimaryContainer,
         )
         if (isFavorite) {
             Icon(
