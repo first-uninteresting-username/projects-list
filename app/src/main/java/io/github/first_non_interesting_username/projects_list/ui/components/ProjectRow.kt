@@ -49,28 +49,34 @@ fun ProjectRow(
     ) {
         Text(
             text = "#$chronology"
+            color = MaterialTheme.colorScheme.onPrimaryContainer
         )
         Text(
             text = name,
             style = MaterialTheme.typography.bodyLarge
+            color = MaterialTheme.colorScheme.onPrimaryContainer
         )
         Text(
             text = "Mot: $motivation/10",
             style = MaterialTheme.typography.bodyMedium
+            color = MaterialTheme.colorScheme.onPrimaryContainer
         )
         Text(
             text = "Pri: $priority/10",
             style = MaterialTheme.typography.bodyMedium
+            color = MaterialTheme.colorScheme.onPrimaryContainer
         )
         if (isFavorite) {
             Icon(
                 painter = painterResource(R.drawable.ic_filled_star),
                 contentDescription = "$name is marked as favorite",
+                tint = MaterialTheme.colorScheme.onPrimaryContainer,
             )
         } else {
             Icon(
                 painter = painterResource(R.drawable.ic_star),
-                contentDescription = "$name is not marked as favorite"
+                contentDescription = "$name is not marked as favorite",
+                tint = MaterialTheme.colorScheme.onPrimaryContainer,g
             )
         }
     }
