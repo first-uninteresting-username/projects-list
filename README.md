@@ -4,7 +4,7 @@
 
 </div>
 
-[![Get it on Obtainium](https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/First-Non-Interesting-Username/projects-list)
+[![Get it on Obtainium](https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/first-uninteresting-username/projects-list)
 
 # Projects List App
 
@@ -42,7 +42,7 @@ You'll need the following things:
   )
 
 ```bash
-git clone https://github.com/First-Non-Interesting-Username/projects-list.git
+git clone https://github.com/first-uninteresting-username/projects-list.git
 cd projects-list
 
 # Make sure ANDROID_HOME points to your SDK

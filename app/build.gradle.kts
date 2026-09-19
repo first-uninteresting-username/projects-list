@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "io.github.first_non_interesting_username.projects_list"
+    namespace = "io.github.first_uninteresting_username.projects_list"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -16,7 +16,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "io.github.first_non_interesting_username.projects_list"
+        applicationId = "io.github.first_uninteresting_username.projects_list"
         minSdk = 24
         targetSdk = 36
         versionCode = 10002
