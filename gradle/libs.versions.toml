@@ -13,7 +13,7 @@ navigationCompose = "2.9.8"
 aboutLibraries = "14.1.0"
 material3 = "1.4.0"
 kotlinx-serialization-json = "1.11.0"
-lifecycle-viewmodel-compose = "2.10.0"
+lifecycle-viewmodel-compose = "2.11.0"
 runtime = "1.11.4"
 navigationRuntimeKtx = "2.9.8"
 
